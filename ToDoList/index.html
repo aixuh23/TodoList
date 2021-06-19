@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- clock-->
+    <div class="js_clock">
+      <h1>00:00:00</h1>
+    </div>
+    
+    <!-- Name form -->
+    <form class="js_form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    
+    <h1 class="js-greeting greeting"></h1>
+
+    <!-- todo-->
+    <div class = "js_todo">
+      <!-- todo Form-->
+      <form class="js_todoForm">
+        <input type="text" placeholder="Write your toDoList." id="input_list"/>
+        <button class="btn">🖋</button>
+      </form>
+
+      <ul class="js_todoList">
+        <li class="lists">ToDoList</li>
+      </ul>
+    </div>
+
+      <!-- scripts -->
+    <script src="./index.js"></script>
+    <script src="./clock.js"></script>
+    <script src="./greeting.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./bg.js"></script>
+
+  </body>
+</html>
